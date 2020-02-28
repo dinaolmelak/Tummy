@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94D64CB703304E6F0B0FC5EB /* Pods_Tummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92C92A6C9169F640AF6168E /* Pods_Tummy.framework */; };
 		C096E72F2408A91800FF9F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E72E2408A91800FF9F6F /* AppDelegate.swift */; };
 		C096E7312408A91800FF9F6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E7302408A91800FF9F6F /* SceneDelegate.swift */; };
-		C096E7332408A91800FF9F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E7322408A91800FF9F6F /* ViewController.swift */; };
 		C096E7362408A91800FF9F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E7342408A91800FF9F6F /* Main.storyboard */; };
 		C096E7382408A91F00FF9F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E7372408A91F00FF9F6F /* Assets.xcassets */; };
 		C096E73B2408A91F00FF9F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E7392408A91F00FF9F6F /* LaunchScreen.storyboard */; };
+		C096E7432408A95100FF9F6F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E7422408A95100FF9F6F /* PhotosViewController.swift */; };
+		C096E7452408AE3400FF9F6F /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E7442408AE3400FF9F6F /* PhotosCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35917B7D3BDD134061453AE8 /* Pods-Tummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tummy.release.xcconfig"; path = "Target Support Files/Pods-Tummy/Pods-Tummy.release.xcconfig"; sourceTree = "<group>"; };
 		C096E72B2408A91800FF9F6F /* Tummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C096E72E2408A91800FF9F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C096E7302408A91800FF9F6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C096E7322408A91800FF9F6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C096E7352408A91800FF9F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C096E7372408A91F00FF9F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C096E73A2408A91F00FF9F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C096E73C2408A91F00FF9F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C096E7422408A95100FF9F6F /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		C096E7442408AE3400FF9F6F /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		D92C92A6C9169F640AF6168E /* Pods_Tummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF983C9360672EA0F8C0A4D7 /* Pods-Tummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tummy.debug.xcconfig"; path = "Target Support Files/Pods-Tummy/Pods-Tummy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D64CB703304E6F0B0FC5EB /* Pods_Tummy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4455FB02D6CA95C520770EAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF983C9360672EA0F8C0A4D7 /* Pods-Tummy.debug.xcconfig */,
+				35917B7D3BDD134061453AE8 /* Pods-Tummy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BEBB0E6638AF01B31298EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D92C92A6C9169F640AF6168E /* Pods_Tummy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C096E7222408A91800FF9F6F = {
 			isa = PBXGroup;
 			children = (
 				C096E72D2408A91800FF9F6F /* Tummy */,
 				C096E72C2408A91800FF9F6F /* Products */,
+				4455FB02D6CA95C520770EAF /* Pods */,
+				7BEBB0E6638AF01B31298EF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +83,14 @@
 		C096E72D2408A91800FF9F6F /* Tummy */ = {
 			isa = PBXGroup;
 			children = (
+				C096E7422408A95100FF9F6F /* PhotosViewController.swift */,
 				C096E72E2408A91800FF9F6F /* AppDelegate.swift */,
 				C096E7302408A91800FF9F6F /* SceneDelegate.swift */,
-				C096E7322408A91800FF9F6F /* ViewController.swift */,
 				C096E7342408A91800FF9F6F /* Main.storyboard */,
 				C096E7372408A91F00FF9F6F /* Assets.xcassets */,
 				C096E7392408A91F00FF9F6F /* LaunchScreen.storyboard */,
 				C096E73C2408A91F00FF9F6F /* Info.plist */,
+				C096E7442408AE3400FF9F6F /* PhotosCell.swift */,
 			);
 			path = Tummy;
 			sourceTree = "<group>";
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C096E73F2408A91F00FF9F6F /* Build configuration list for PBXNativeTarget "Tummy" */;
 			buildPhases = (
+				A8FB969E59471AA1C8C25A43 /* [CP] Check Pods Manifest.lock */,
 				C096E7272408A91800FF9F6F /* Sources */,
 				C096E7282408A91800FF9F6F /* Frameworks */,
 				C096E7292408A91800FF9F6F /* Resources */,
+				AA00A7A3349BA5E44391AA23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +163,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8FB969E59471AA1C8C25A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tummy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA00A7A3349BA5E44391AA23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tummy/Pods-Tummy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tummy/Pods-Tummy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tummy/Pods-Tummy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C096E7272408A91800FF9F6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C096E7332408A91800FF9F6F /* ViewController.swift in Sources */,
+				C096E7452408AE3400FF9F6F /* PhotosCell.swift in Sources */,
+				C096E7432408A95100FF9F6F /* PhotosViewController.swift in Sources */,
 				C096E72F2408A91800FF9F6F /* AppDelegate.swift in Sources */,
 				C096E7312408A91800FF9F6F /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +355,7 @@
 		};
 		C096E7402408A91F00FF9F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF983C9360672EA0F8C0A4D7 /* Pods-Tummy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		C096E7412408A91F00FF9F6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35917B7D3BDD134061453AE8 /* Pods-Tummy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

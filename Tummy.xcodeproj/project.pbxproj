@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		94D64CB703304E6F0B0FC5EB /* Pods_Tummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92C92A6C9169F640AF6168E /* Pods_Tummy.framework */; };
+		C012DDEB240F474E00F9AB42 /* PhotoDetatilsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012DDEA240F474E00F9AB42 /* PhotoDetatilsViewController.swift */; };
 		C096E72F2408A91800FF9F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E72E2408A91800FF9F6F /* AppDelegate.swift */; };
 		C096E7312408A91800FF9F6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E7302408A91800FF9F6F /* SceneDelegate.swift */; };
 		C096E7362408A91800FF9F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E7342408A91800FF9F6F /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		35917B7D3BDD134061453AE8 /* Pods-Tummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tummy.release.xcconfig"; path = "Target Support Files/Pods-Tummy/Pods-Tummy.release.xcconfig"; sourceTree = "<group>"; };
+		C012DDEA240F474E00F9AB42 /* PhotoDetatilsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetatilsViewController.swift; sourceTree = "<group>"; };
 		C096E72B2408A91800FF9F6F /* Tummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C096E72E2408A91800FF9F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C096E7302408A91800FF9F6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 				FF983C9360672EA0F8C0A4D7 /* Pods-Tummy.debug.xcconfig */,
 				35917B7D3BDD134061453AE8 /* Pods-Tummy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				C096E7392408A91F00FF9F6F /* LaunchScreen.storyboard */,
 				C096E73C2408A91F00FF9F6F /* Info.plist */,
 				C096E7442408AE3400FF9F6F /* PhotosCell.swift */,
+				C012DDEA240F474E00F9AB42 /* PhotoDetatilsViewController.swift */,
 			);
 			path = Tummy;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C096E7452408AE3400FF9F6F /* PhotosCell.swift in Sources */,
+				C012DDEB240F474E00F9AB42 /* PhotoDetatilsViewController.swift in Sources */,
 				C096E7432408A95100FF9F6F /* PhotosViewController.swift in Sources */,
 				C096E72F2408A91800FF9F6F /* AppDelegate.swift in Sources */,
 				C096E7312408A91800FF9F6F /* SceneDelegate.swift in Sources */,
